@@ -1,0 +1,107 @@
+/* ============================================================
+   DOCUMENTACIÓN: PROYECTO RETRO-GAMING HUB
+   Cumplimiento de Requisitos: Tipografía, Colores y Espaciado
+   ============================================================ */
+
+/* Configuración General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+/* REQUISITO: Color de fondo y Tipografía */
+body {
+    background-color: #0b0e14; /* Fondo oscuro (Requisito: Color de fondo) */
+    font-family: 'Segoe UI', Arial, sans-serif; /* (Requisito: Tipografía) */
+    color: #e0e0e0; /* Color de texto base */
+    line-height: 1.6;
+}
+
+/* REQUISITO: Estilos para etiquetas semánticas y Colores */
+header {
+    background-color: #1a1f29;
+    color: #00ffcc; /* Color Neón (Requisito: Colores) */
+    padding: 30px; /* (Requisito: Espaciado/Padding) */
+    text-align: center;
+    border-bottom: 4px solid #ff0055;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px; /* (Requisito: Espaciado/Margin) */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Espacio entre botones de menú */
+}
+
+nav ul li a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* REQUISITO: Espaciado en el contenido principal (Main) */
+main {
+    padding: 40px 20px; /* (Requisito: Padding) */
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenido en la pantalla (Requisito: Margin) */
+}
+
+/* REQUISITO: Estilos para Section y Article */
+section {
+    margin-bottom: 40px; /* Separa una sección de otra (Requisito: Margin) */
+    padding: 20px;
+    background-color: #161b22;
+    border-radius: 8px;
+}
+
+article {
+    background-color: #1c222d;
+    padding: 15px; /* Espacio interno del artículo */
+    margin-top: 15px;
+    border-left: 5px solid #ff0055; /* Detalle de color neón */
+}
+
+/* REQUISITO: Colores y Espaciado en Formulario */
+form {
+    margin-top: 20px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px; /* (Requisito: Padding) */
+    margin-bottom: 20px; /* (Requisito: Margin) */
+    background-color: #0b0e14;
+    color: white;
+    border: 1px solid #00ffcc;
+}
+
+button {
+    background-color: #ff0055;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilo para las Imágenes (Requisito: carpeta /assets) */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen y da espacio (Requisito: Margin) */
+    border: 2px solid #333;
+}
+
+/* REQUISITO: Footer */
+footer {
+    text-align: center;
+    padding: 20px; /* (Requisito: Padding) */
+    background-color: #1a1f29;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
